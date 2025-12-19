@@ -8,7 +8,7 @@ public class exercicio6 {
 
         double a, b, c;
         
-        System.out.println("Digite os valores de A, B e C:");
+        System.out.println("Digite os valdores de A, B e C:");
         Scanner sc = new Scanner(System.in);
         a = sc.nextDouble();
         b = sc.nextDouble();
