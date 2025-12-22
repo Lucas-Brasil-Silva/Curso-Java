@@ -16,7 +16,7 @@ public class exercicio10 {
         System.out.print("Is there na initial deposit (y/n)? ");
         char valueInitial = sc.next().charAt(0);
         double balance = 0.0;
-        if (valueInitial == "y".charAt(0)) {
+        if (valueInitial == 'y') {
             System.out.print("Enter initial deposit value: ");
             balance = sc.nextDouble();
         }

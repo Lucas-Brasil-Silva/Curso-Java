@@ -1,9 +1,9 @@
 package entities;
 
 public class BankAccount {
-    public int account;
-    public String holder;
-    public double balance;
+    private int account;
+    private String holder;
+    private double balance;
 
     public BankAccount(int account, String holder, double balance) {
         this.account = account;
@@ -27,10 +27,6 @@ public class BankAccount {
        return balance; 
     }
 
-    public void setBalance(double balance) {
-        this.balance = balance;
-    }
-
     public String toString() {
         return String.format("Account: %d, Holder: %s, Balance: $ %.2f\n", getAccont(), getHolder(), getBalance());
     }
@@ -41,7 +37,7 @@ public class BankAccount {
         double operation = getBalance() - (value + tax);
 
         if (operation >= 0 && value > 0) {
-            setBalance(operation);
+            balance = operation;
             return "Updated account data:\n" + toString();
 
         } else {
@@ -51,7 +47,7 @@ public class BankAccount {
 
     public String deposit(double value) {
         if (value > 0) {
-            setBalance(value + getBalance());
+            balance += value;
             return "Updated account data:\n" + toString();
         } else {
             return "Invalid Value!";
