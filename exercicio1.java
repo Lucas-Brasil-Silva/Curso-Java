@@ -10,7 +10,7 @@ public class exercicio1 {
         valor1 = sc.nextInt();
         valor2 = sc.nextInt();
         sc.close();
-
+        
         System.out.printf("SOMA = %d", (valor1 + valor2));
 
     }
