@@ -6,7 +6,7 @@ import java.util.List;
 
 import artifactid.model.Product;
 import artifactid.model.ProductReport;
-import artifactid.service.csvService;
+import artifactid.service.CsvService;
 
 public class Main {
     public static void main(String[] args) {

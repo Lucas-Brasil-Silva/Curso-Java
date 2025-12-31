@@ -16,7 +16,7 @@ import com.opencsv.bean.CsvToBeanBuilder;
 import com.opencsv.bean.StatefulBeanToCsv;
 import com.opencsv.bean.StatefulBeanToCsvBuilder;
 
-public class csvService {
+public class CsvService {
     
     public List<Product> csvRead(String path) throws IOException {
         try (Reader reader = Files.newBufferedReader(Paths.get(path))) {
