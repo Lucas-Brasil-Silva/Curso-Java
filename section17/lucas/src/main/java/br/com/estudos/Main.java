@@ -1,4 +1,4 @@
-package section17.lucas.src.main.java.br.com.estudos;
+package br.com.estudos;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.Set;
 
-import section17.lucas.src.main.java.br.com.estudos.model.Course;
+import br.com.estudos.model.Course;
 
 public class Main {
     public static void main(String[] args) {

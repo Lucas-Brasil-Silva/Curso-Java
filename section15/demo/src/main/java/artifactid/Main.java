@@ -10,7 +10,7 @@ import artifactid.service.csvService;
 
 public class Main {
     public static void main(String[] args) {
-        csvService service = new csvService();
+        CsvService service = new CsvService();
         String path = "section15\\demo\\src\\main\\resources\\produtos.csv";
         String newPath = "section15\\demo\\src\\main\\resources\\out\\reportprodutos2.csv";
 

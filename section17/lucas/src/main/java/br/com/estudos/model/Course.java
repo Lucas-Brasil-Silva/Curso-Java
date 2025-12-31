@@ -1,4 +1,4 @@
-package section17.lucas.src.main.java.br.com.estudos.model;
+package br.com.estudos.model;
 
 import java.util.ArrayList;
 import java.util.List;
