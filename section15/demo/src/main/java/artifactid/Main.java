@@ -6,11 +6,11 @@ import java.util.List;
 
 import artifactid.model.Product;
 import artifactid.model.ProductReport;
-import artifactid.service.csvService;
+import artifactid.service.CsvService;
 
 public class Main {
     public static void main(String[] args) {
-        csvService service = new csvService();
+        CsvService service = new CsvService();
         String path = "section15\\demo\\src\\main\\resources\\produtos.csv";
         String newPath = "section15\\demo\\src\\main\\resources\\out\\reportprodutos2.csv";
 

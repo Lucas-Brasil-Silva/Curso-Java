@@ -1,0 +1,9 @@
+package br.com.estudos.services;
+
+import java.math.BigDecimal;
+
+public interface OnlinePaymentService {
+    
+    BigDecimal paymentFee(BigDecimal amount);
+    BigDecimal interest(BigDecimal amount, int months);
+}
